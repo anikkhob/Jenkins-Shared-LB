@@ -1,4 +1,4 @@
-def call () {
-  dependencyCheck additionalArguments: '--scan ./' , odcinstalltion:'OWSAP'
-  dependencyCheckPubilsher pattern:  '**/dependency-Check-report.xml
+def call(){
+  dependencyCheck additionalArguments: '--scan ./', odcInstallation: 'OWASP'
+  dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
 }
